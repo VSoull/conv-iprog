@@ -30,6 +30,22 @@ void menuViteza(){
             cout << "\n ->  ";
 }
 
+void convertLungimeMetriToCm(int metri){
+    int cm  = 100;
+    int dimensiune =  metri * cm;
+    cout << "\n\nmetri -> cm : " << dimensiune << "cm";
+
+}
+
+void convertLungimeCmToMetri(int cm){
+    int m  = 100;
+    int dimensiune = cm / m ;
+    cout << "\n\ncm -> m : " << dimensiune << "m";
+
+}
+
+
+
 int main()
 {
     cout << "Hello world!" << endl;

@@ -43,6 +43,76 @@ void convertLungimeCmToMetri(int cm){
     cout << "\n\ncm -> m : " << dimensiune << "m";
 
 }
+void convertArieMToCm(int m){
+    int cm  = 100 * 100;
+    int dimensiune = m * cm;
+    cout << "\n\m patrat -> cm patrati : " << dimensiune << "m patrati";
+
+}
+
+
+void convertVolumMToCm(int m){
+    int cm  = 100 * 100 * 100;
+    int dimensiune = m * cm;
+    cout << "\n\m cub -> cm cub : " << dimensiune << " cm cubi";
+
+}
+
+void convertMinutToSec(int m){
+    int sec  = 60;
+    int dimensiune = m * sec;
+    cout << "\n\min -> sec : " << dimensiune << " sec";
+
+}
+
+void convertKmToMph(int km){
+    double dimensiune = km  /  1.609344;
+    cout << "\n\Km -> mph : " << dimensiune << " sec";
+}
+
+void convertKmToM(int km){
+    double m = 1000;
+    double dimensiune = km * m/ 3600;
+    cout << "\n\Km/h -> m/s : " << dimensiune << " m/s";
+}
+
+void convertTempCtoF(int temp){
+    double dimensiune = temp * 1.8 + 32;
+    cout << "\n\Celsius -> Farenheit : " << dimensiune ;
+
+}
+
+void convertKgtoG(int kg){
+    double dimensiune = kg * 1000;
+    cout << "\n\Kg -> g : " << dimensiune ;
+
+}
+
+
+void convertJtoErg(int j){
+    int dimensiune = j * 10000000;
+    cout << "\n\J -> erg : " << dimensiune ;
+
+}
+
+void convertpascaltobar(double j){
+    double dimensiune = j / 10000000;
+    cout << "\n\Pascal -> bar: " << dimensiune ;
+
+}
+
+void convertKgCubTogrMetru(int j){
+    int dimensiune = j * 1;
+    cout << "\n\Pascal -> bar: " << dimensiune ;
+
+}
+
+void convertlitruPerKmToMphGalon(double j){
+    double dimensiune = j * 2.825;
+    cout << "\n\l/km -> mpg: " << dimensiune ;
+
+}
+
 
 
 

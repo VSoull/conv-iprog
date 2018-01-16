@@ -48,6 +48,44 @@ void convertLungimeCmToMetri(int cm){
 
 int main()
 {
-    cout << "Hello world!" << endl;
+
+            int converter = -1;
+            int tipConversie = -1;
+             int dimensiune = -1;
+            menu();
+            cin >> converter;
+            while(converter != 0 ){
+
+                switch(converter){
+                case 1:
+                        tipConversie = -1;
+                        dimensiune = -1;
+                        menuLungime();
+                        cin >>tipConversie;
+                        cout << "\nIntroduceti dimensiunea: ";
+                        cin >> dimensiune;
+                        switch(tipConversie){
+                            case 1:
+                                convertLungimeMetriToCm(dimensiune);
+                            break;
+                            case 2:
+                                convertLungimeCmToMetri(dimensiune);
+                            break;
+
+                            default:
+                                break;
+
+                        }
+                    break;
+
+
+
+
+                }
+                 menu();
+                cin >> converter;
+
+            }
+
     return 0;
 }

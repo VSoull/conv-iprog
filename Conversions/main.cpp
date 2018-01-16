@@ -147,6 +147,139 @@ int main()
 
                         }
                     break;
+ case 2:
+                                 tipConversie = -1;
+                                 dimensiune = -1;
+                                  cout << "\n1.Arie m patrati-> cm patrati ";
+                                 cout << "\n ->  ";
+                                  cin >>tipConversie;
+                                  cout << "\nIntroduceti dimensiunea: ";
+                                    cout << "\n ->  ";
+                                  cin >> dimensiune;
+                                  convertArieMToCm(dimensiune);
+                                break;
+
+                            case 3:
+                                  tipConversie = -1;
+                                    dimensiune = -1;
+                                  cout << "\n1.Volum m patrati-> cm patrati ";
+                                    cout << "\n ->  ";
+                                  cin >>tipConversie;
+                                  cout << "\nIntroduceti dimensiunea: ";
+                                    cout << "\n ->  ";
+                                  cin >> dimensiune;
+                                  convertVolumMToCm(dimensiune);
+                                break;
+
+                            case 4:
+                                  tipConversie = -1;
+                                  dimensiune = -1;
+                                  cout << "\n1.Minute -> secunde ";
+                                  cout << "\n ->  ";
+                                  cin >>tipConversie;
+                                  cout << "\nIntroduceti dimensiunea: ";
+                                  cout << "\n ->  ";
+                                  cin >> dimensiune;
+                                  convertMinutToSec(dimensiune);
+                                break;
+
+
+
+                                   case 5:
+
+                                       tipConversie = -1;
+                                        dimensiune = -1;
+                                        menuViteza();
+                                        cin >>tipConversie;
+                                        cout << "\nIntroduceti dimensiunea: ";
+                                        cin >> dimensiune;
+                                        switch(tipConversie){
+                                            case 1:
+                                                convertKmToMph(dimensiune);
+                                            break;
+                                            case 2:
+                                                convertKmToM(dimensiune);
+                                            break;
+
+                                            default:
+                                                break;
+
+                                    }
+                                    break;
+
+                                            case 6:
+                                                  tipConversie = -1;
+                                                  dimensiune = -1;
+                                                  cout << "\n1.Celsius -> Farenheit ";
+                                                  cout << "\n ->  ";
+                                                  cin >>tipConversie;
+                                                  cout << "\nIntroduceti dimensiunea: ";
+                                                  cout << "\n ->  ";
+                                                  cin >> dimensiune;
+                                                  convertTempCtoF(dimensiune);
+                                                break;
+
+                                                 case 7:
+                                                  tipConversie = -1;
+                                                  dimensiune = -1;
+                                                  cout << "\n1.Kg -> g ";
+                                                  cout << "\n ->  ";
+                                                  cin >>tipConversie;
+                                                  cout << "\nIntroduceti dimensiunea: ";
+                                                  cout << "\n ->  ";
+                                                  cin >> dimensiune;
+                                                  convertKgtoG(dimensiune);
+                                                break;
+
+                                                case 8:
+                                                  tipConversie = -1;
+                                                  dimensiune = -1;
+                                                  cout << "\n1.J -> erg ";
+                                                  cout << "\n ->  ";
+                                                  cin >>tipConversie;
+                                                  cout << "\nIntroduceti dimensiunea: ";
+                                                  cout << "\n ->  ";
+                                                  cin >> dimensiune;
+                                                  convertJtoErg(dimensiune);
+                                                break;
+
+                                                    case 9:
+                                                  tipConversie = -1;
+                                                  dimensiune = -1;
+                                                  cout << "\n1.Pa-> bar ";
+                                                  cout << "\n ->  ";
+                                                  cin >>tipConversie;
+                                                  cout << "\nIntroduceti dimensiunea: ";
+                                                  cout << "\n ->  ";
+                                                  cin >> dimensiune;
+                                                  convertpascaltobar(dimensiune);
+                                                break;
+
+                                                case 10:
+                                                  tipConversie = -1;
+                                                  dimensiune = -1;
+                                                  cout << "\n1.Kb/m cub -> g/l ";
+                                                  cout << "\n ->  ";
+                                                  cin >>tipConversie;
+                                                  cout << "\nIntroduceti dimensiunea: ";
+                                                  cout << "\n ->  ";
+                                                  cin >> dimensiune;
+                                                  convertKgCubTogrMetru(dimensiune);
+                                                break;
+
+
+                                                case 11:
+                                                  tipConversie = -1;
+                                                  dimensiune = -1;
+                                                  cout << "\n\l/km -> mpg: ";
+                                                  cout << "\n ->  ";
+                                                  cin >>tipConversie;
+                                                  cout << "\nIntroduceti dimensiunea: ";
+                                                  cout << "\n ->  ";
+                                                  cin >> dimensiune;
+                                                  convertlitruPerKmToMphGalon(dimensiune);
+                                                break;
+
 
 
 
